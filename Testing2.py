@@ -435,41 +435,22 @@ show_me=migrate_to_sql()
 
 def view_channels():
     global channel_df
-    #data = []
-    #global details
-    #for detail in details:
-    #    data.append(detail["channel_info"])
-    #df=pd.DataFrame(data)
+    
     st.write(channel_df)
 
 def view_playlists():
     global playlists_df
-    #playlist_data=[]
-    #global details
-    #for detail in details:
-    #       for i in range(len(detail["playlist_info"])):
-    #           playlist_data.append(detail["playlist_info"][i])
-    #df1=pd.DataFrame(playlist_data)
+    
     st.write(playlists_df)
 
 def view_videos():
     global videos_df
-    #video_data=[]
-    #global details
-    #for detail in details:
-    #    for i in range(len(detail["video_info"])):
-    #       video_data.append(detail["video_info"][i])
-    #df2=pd.DataFrame(video_data)
+    
     st.write(videos_df)
 
 def view_comments():
     global comments_df
-    #comment_data=[]
-    #global details
-    #for detail in details:
-    #   for i in range(len(detail["comment_info"])):
-    #           comment_data.append(detail["comment_info"][i])
-    #df3=pd.DataFrame(comment_data)
+
     st.write(comments_df)
 
 st.title(":green[YOUTUBE DATA HARVESTING AND WAREHOUSING]")
